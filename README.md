@@ -8,7 +8,11 @@ How to compile
 
 Just do a simple
 
-    g++ $filename.c -o $filename.app
+    gcc $filename.c -o $filename.app
+    
+or
+
+    cc $filename.c -o $filename.app
 
 then use
 
